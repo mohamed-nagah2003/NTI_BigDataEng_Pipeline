@@ -12,7 +12,11 @@ The pipeline is designed to simulate real-time log generation, capture the data 
 3. **Hadoop (HDFS):** Serves as the central data lake, securely storing the raw streaming data.
 4. **Apache Spark (PySpark):** Connects to HDFS to perform distributed data processing (e.g., WordCount operations) on the ingested logs via Jupyter Notebook.
 
-![Project Architecture](assets/architecture.png)
+
+   <p align="center">
+     <img src="assets/architecture.png" alt="Project Architecture" width="500" height="300">
+   </p>
+
 
 ## Technologies & Tools Used
 * **Programming Languages:** Python
